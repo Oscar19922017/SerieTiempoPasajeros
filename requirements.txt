@@ -1,0 +1,8 @@
+# Dependencias que Streamlit Community Cloud instalará en la nube.
+# Versiones fijadas (=) para que la nube use exactamente lo mismo que probamos.
+
+streamlit==1.67.0
+pandas==3.1.1
+plotly==7.1.0
+statsmodels==0.15.0
+prophet==1.5.0

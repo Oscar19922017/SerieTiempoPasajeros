@@ -1,0 +1,9 @@
+# Normaliza los finales de línea para que coincidan en Windows y Linux.
+* text=auto eol=lf
+*.bat text eol=crlf
+
+# Archivos binarios
+*.png binary
+*.jpg binary
+*.ico binary
+*.pdf binary

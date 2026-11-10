@@ -1,0 +1,20 @@
+# Entorno virtual y cachés de Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Resultados de uv.
+# OJO: Streamlit Community Cloud le da prioridad a "uv.lock" por encima de
+# "requirements.txt". Por eso lo dejamos fuera del repositorio y así la nube
+# usa "requirements.txt", que es lo que queremos.
+uv.lock
+
+# Secretos de Streamlit (nunca subir contraseñas ni claves)
+.streamlit/secrets.toml
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

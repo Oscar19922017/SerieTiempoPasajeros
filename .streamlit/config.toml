@@ -1,0 +1,8 @@
+# Configuración de la app para Streamlit.
+
+[theme]
+base = "light"
+primaryColor = "#2f7ed8"
+
+[browser]
+gatherUsageStats = false
